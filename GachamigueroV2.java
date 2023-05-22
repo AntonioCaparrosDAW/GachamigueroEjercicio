@@ -14,7 +14,10 @@ public class GachamigaV2 {
             return "Gachamiga";
         else if (i%3==0)
             return "Gacha";
-       	return "Nada2";
+        else if (i%5==0)
+            return "Miga";
+        else
+            return ""+i;
     }
 }
 
